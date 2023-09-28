@@ -1,0 +1,366 @@
+.nav li a {
+    text-decoration: none;
+    margin: 20px
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav li img {
+    width: 70px;
+    margin-right: 200px;
+}
+
+.down {
+    margin-left: 200px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin: 0px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+
+/* =======landing======*/
+.landing {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    border-top: 1px solid rgb(8, 4, 78);
+}
+
+.landing div img {
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.landingdiv1 {
+    padding-top: 200px;
+}
+
+.say {
+    text-decoration: none;
+    border: 1px solid rgb(6, 23, 75);
+    background-color: white;
+    padding: 10px;
+    color: rgb(6, 23, 75);
+    margin-right: 50px;
+}
+
+.say:hover {
+    background-color: rgb(6, 23, 75);
+    color: white;
+}
+
+/* ======end Landing===== */
+/* ======my clients====== */
+
+.clients {
+    background-color: rgb(6, 23, 75);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.clients img {
+    margin: 30px;
+    opacity: 0.5;
+}
+
+.topclient {
+    background-color: rgb(6, 23, 75);
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-top: -4px;
+}
+
+/* ==========dedication======== */
+.dedication {
+    display: flex;
+    /* border:2px solid red; */
+    margin: 70px;
+}
+
+.dedication div img {
+    width: 80px;
+}
+
+.dedication div {
+    padding: 30px;
+    border-right: 2px solid rgb(74, 70, 70);
+}
+
+.dedication div div {
+    border: none;
+}
+
+
+/* ======skill====== */
+.skill1 {
+    color: orangered;
+    font-size: 20px;
+    margin: 0px !important;
+}
+
+.skill2 {
+    color: rgb(10, 10, 132);
+    font-size: 50px;
+    margin: 0px !important;
+}
+
+.skill3 {
+    color: rgb(28, 27, 27);
+    font-size: 15px;
+    margin: 0px !important;
+}
+
+.skilldiv2 {
+    background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg);
+    padding: 60px;
+}
+
+.skilldiv2 span {
+    border: 2px solid black;
+    background-color: white;
+    color: rgb(13, 13, 29);
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.mainskill div {
+    margin: 70px;
+}
+
+.mainskill {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    padding-left: 100px;
+}
+
+/* =======projects======= */
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects div {
+    margin: 50px;
+    font-size: 30px;
+    display: flex;
+}
+
+.projects div u {
+    font-size: 60px;
+}
+
+.projects div div {
+    margin: 0px;
+}
+
+/* ========about======== */
+
+#position {
+
+    display: flex;
+    border: 2px solid rgb(20, 20, 78);
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    top: 500px;
+    left: 0px;
+}
+
+#about {
+    scroll-behavior: smooth;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
+}
+
+.about div {
+    margin: 70px;
+
+}
+
+
+.about1 {
+    margin: 0px !important;
+    font-size: 60px;
+    color: rgb(85, 51, 209);
+}
+
+.about div p {
+    color: rgb(79, 75, 75);
+}
+
+#hire {
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    background-color: rgb(10, 69, 147);
+    width: 60px;
+
+}
+
+#hire:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(27, 27, 83);
+}
+
+/* =======images5======= */
+.image51 {
+    border: 2px solid black;
+    width: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image51 img:hover {
+    scale: 1.2;
+    transition: scale 1s;
+}
+
+.mainimages {
+    display: flex;
+}
+
+.image52 {
+    border: 2px solid black;
+    width: 33%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image52 img:hover {
+    scale: 1.2;
+    transition: scale 1s;
+}
+
+
+
+/* =====faq===== */
+.faq {
+    width: 75%;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -100px;
+}
+
+#check1:checked~.faq {
+    margin-top: 20px;
+    transition: margin-top 2s;
+}
+
+.label1 {
+    color: white;
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 2px;
+    float: right;
+}
+
+.faq1 {
+    width: 75%;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* =====contact===== */
+.contact1 {
+    color: crimson;
+    font-size: 20px;
+}
+
+.contact2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    margin: 10px;
+}
+
+.contact3 {
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+}
+
+.maincontact {
+    background-image: url('https://itemsstore.net/html/trito/img/contact/background.jpg');
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.maincontact input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 20px;
+    padding: 20px;
+    width: 400px;
+    margin: 15px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    padding: 20px;
+    width: 440px;
+    margin: 15px;
+    color: black;
+    background-color: green;
+}
+
+.div1 {
+    margin: 200px;
+
+}
+
+#logos {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(15, 15, 52);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.div2 {
+    background-color: white;
+    padding: 20px;
+    /* opacity: .5; */
+}
